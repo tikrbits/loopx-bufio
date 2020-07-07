@@ -6,7 +6,7 @@
 
 ```js
 import assert = require('assert');
-import bio = require('bufio');
+import bio = require('@artlab/bufio');
 
 const bw = bio.write();
 bw.writeU64(100);
@@ -21,7 +21,7 @@ assert(br.readString(3) === 'foo');
 ## Struct Usage
 
 ```js
-import bio = require('bufio');
+import bio = require('@artlab/bufio');
 
 class MyStruct extends bio.Struct {
   constructor() {
