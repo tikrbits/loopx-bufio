@@ -4,7 +4,7 @@
 
 ## Usage
 
-``` js
+```js
 import assert = require('assert');
 import bio = require('bufio');
 
@@ -20,7 +20,7 @@ assert(br.readString(3) === 'foo');
 
 ## Struct Usage
 
-``` js
+```js
 import bio = require('bufio');
 
 class MyStruct extends bio.Struct {
