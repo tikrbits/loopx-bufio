@@ -60,3 +60,9 @@ console.log(MyStruct.fromHex(obj.toHex()));
 console.log('Base64:');
 console.log(obj.toBase64());
 ```
+
+## License
+
+- Copyright (c) 2020, ty <towyuan@outlook.com> (MIT License).
+
+See LICENSE for more info.
