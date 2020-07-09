@@ -37,7 +37,7 @@ export class Struct {
     return this;
   }
 
-  toString() {
+  toString(): string {
     return Object.prototype.toString.call(this);
   }
 
@@ -45,7 +45,7 @@ export class Struct {
     return this;
   }
 
-  getJSON() {
+  getJSON(): any {
     return this;
   }
 
@@ -61,7 +61,7 @@ export class Struct {
     return this.fromOptions(options, extra);
   }
 
-  format() {
+  format(): any {
     return this.getJSON();
   }
 
