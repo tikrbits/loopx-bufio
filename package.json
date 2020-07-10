@@ -1,6 +1,6 @@
 {
   "name": "@artlab/bufio",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Buffer and serialization utilities for javascript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
