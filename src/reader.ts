@@ -5,13 +5,10 @@
  * https://github.com/bcoin-org/bcoin
  */
 
-'use strict';
-
 import {HashLike, isHashInst} from './types';
-
-const enforce = require('./enforce');
-const encoding = require('./encoding');
-const EncodingError = require('./error');
+import {EncodingError} from './error';
+import {enforce} from './enforce';
+import * as encoding from './encoding';
 
 /*
  * Constants
