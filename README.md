@@ -1,4 +1,4 @@
-# @tib/bufio
+# @loopx/bufio
 
 > Buffer and serialization utilities for javascript.
 
@@ -6,7 +6,7 @@
 
 ```js
 import assert = require('assert');
-import bio = require('@tib/bufio');
+import bio = require('@loopx/bufio');
 
 const bw = bio.write();
 bw.writeU64(100);
@@ -21,7 +21,7 @@ assert(br.readString(3) === 'foo');
 ## Struct Usage
 
 ```js
-import bio = require('@tib/bufio');
+import bio = require('@loopx/bufio');
 
 class MyStruct extends bio.Struct {
   constructor() {
