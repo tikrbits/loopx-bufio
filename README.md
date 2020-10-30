@@ -1,6 +1,8 @@
 # @loopx/bufio
 
 > Buffer and serialization utilities for javascript.
+>
+> This project is TypeScript version from [bufio](https://github.com/bcoin-org/bufio)
 
 ## Usage
 
@@ -64,5 +66,4 @@ console.log(obj.toBase64());
 ## License
 
 - Copyright (c) 2020, ty <towyuan@outlook.com> (MIT License).
-
-See LICENSE for more info.
+- Copyright (c) 2017, Christopher Jeffrey (MIT License).
