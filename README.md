@@ -2,7 +2,8 @@
 
 > Buffer and serialization utilities for javascript.
 >
-> This project is TypeScript version from [bufio](https://github.com/bcoin-org/bufio)
+> This project is TypeScript version from
+> [bufio](https://github.com/bcoin-org/bufio)
 
 ## Usage
 
