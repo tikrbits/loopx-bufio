@@ -65,5 +65,5 @@ console.log(obj.toBase64());
 
 ## License
 
-- Copyright (c) 2020, ty <towyuan@outlook.com> (MIT License).
+- Copyright (c) 2020, Yuan Tao (MIT License).
 - Copyright (c) 2017, Christopher Jeffrey (MIT License).
